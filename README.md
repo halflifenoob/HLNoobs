@@ -1,4 +1,1 @@
-404 
- You are on the wrong page,
-this url is our homepage 
-https://hlnoobs.net/home.html
+https://youtu.be/8UmXX21zVms
