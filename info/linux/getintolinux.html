@@ -95,7 +95,7 @@ body {
   <p></p>
   <b>Debian:</b>
   <p><a href="https://www.debian.org">https://www.debian.org/</a></p>
-  <p>This is what I currently use for my desktop AND servers.<br> Debian is what we like to call a base distro which means it is what some other distros use as a base to build upon.<br> Linux Mint is based on Ubuntu and Ubuntu is based on Debian.<br> What does this mean for the average user?<br> It means that if you install this distro you get a very basic and non bloated Linux experience at the cost of it not being easy to understand for new Linux users.<br> You get the choice between multiple different desktop environments so you can customize it to your heart’s content. If you find that you dislike how Windows<br> and more beginner friendly distros try to hold your hands through everything and want to learn how to use a terminal then this is the one for you.<br> If you dislike the concept of bleeding edge and much prefer your things stable then this one is very much for you.</p>
+  <p>This is what I currently use for my desktop AND servers.<br> Debian is what we like to call a base distro which means it is what some other distros use as a base to build upon.<br> Linux Mint is based on Ubuntu and Ubuntu is based on Debian.<br> What does this mean for the average user?<br> It means that if you install this distro you get a very basic and non bloated Linux experience at the cost of it not being easy to understand for new Linux users.<br> You get the choice between multiple different desktop environments so you can customize it to your heart’s content. If you find that you dislike how Windows<br> and more beginner friendly distros try to hold your hands through everything and want to learn how to use a terminal then this is the one for you.<br> If you dislike the concept of bleeding edge and much prefer your things stable then this one is very much for you. If you decide to use this then MAKE SURE TO NOT ADD ANY ROOT INFO, there is no legitimate reason to not just use sudo!</p>
   <h1>General Linux Info</h1>
   <b>Linux Journey</b>
   <p><a href="https://linuxjourney.com/">https://linuxjourney.com/</a></p>
@@ -122,7 +122,51 @@ Mint and Debian are the only ones we can recommend as these two are easy to use 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jhFH03t4HUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <p>Veronica Explains (content creator) shows you why Debian is still very much worth considering while explaining that it’s not a “plug and play distro”</p>
   
-
+  <h1>What to do after a fresh install</h1>
+  <p>Just like after a fresh install of Windows, you should make sure your system is updated. If you used the Debian net installer then you don't really have to worry about this right away but Linux Mint Users will need to be sure to update to make sure they have the latest security and software updates.</p>
+  <b>Linux Mint's update software</b>
+  <p>On the right side of the panel (taskbar for windows users) you will find a Shield icon. This Shield represent's the update software that Mint uses. If you are connected to the internet the shield should turn orange within a few minutes after loging in. This means you have updates to apply. Clicking on the Shield while orange will bring up all the updates you can apply. You can choose what you want and don't want unlike Windows. By default everything will be selected, don't touch anything unless you know what you are doing. Just install the updates.</p>
+  <b>Using Apt Package Manager</b>
+  <p>On Linux Mint and Debian you can open a terminal window and enter the following commands</p>
+  <pre>sudo apt update
+sudo apt upgrade</pre>
+  <p>If you just tried to copy and paste these with ctrl-v and got confused, that does not work in terminals so right click and paste instead. It will ask you for your password because using sudo tells the system you will be preforming an action as root. Press Y and enter when given the prompt to confirm. Congrats you should now be up to date.</p>
+  
+  <h1>Installing Software</h1>
+  <p>Now depending on who you ask you will hear that this can either be a herculean task or as simple as it is on Windows. The people telling you that it is hard are likely using something like Gentoo but you as a Spoiled Linux Mint or Debian user will likely have it easy. Key word there is "likely". </p>
+  <b>Using a Software Manager/Store Front</b>
+  <p>If you download software in .deb form off a website then all you have to do to install it is locate the file, right click on it, and open the file with "Software"</p>
+  <p>Please remember that while it's harder to get Windows Viruses and Malware on Linux, Linux Viruses and Malware still exist and can get anyone not being careful and not practicing internet safety.</p>
+  <b>Using Apt Package Manager</b>
+  <p>Find the package you want to install on the Debian repos for Debian, and the Ubuntu repos for Linux Mint. Now you just need replace 'package-name' on the command below with your package's name then press enter</p>
+  <pre>sudo apt install package-name</pre>
+  
+  <table>
+  <tr>
+    <th>Linux Noob's Essentials</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Steam (Game CDN + easy access to Proton)</td>
+    <td><a href="https://store.steampowered.com/about/">View</a></td>
+  </tr>
+  <tr>
+    <td>Wine (Windows Compatibility Layer)</td>
+    <td><a href="https://www.winehq.org/">View</a></td>
+  </tr>
+  <tr>
+    <td>Bottles (Sandboxed Proton, Soda, and Wine on non Steam games + applications)</td>
+    <td><a href="https://hlnoobs.net/info/linux/getintolinux.html">View</a></td>
+  </tr>
+  <tr>
+    <td>Flatpak (Universal Linux Package Manager)</td>
+    <td><a href="https://flatpak.org/setup/">View</a></td>
+  </tr>
+  <tr>
+    <td>Boxes (VMs to mess with other linux distros in, requires flatpak)</td>
+    <td><a href="https://flathub.org/apps/org.gnome.Boxes">View</a></td>
+  </tr>
+</table>
 
   <pre></pre>	
 </div>
